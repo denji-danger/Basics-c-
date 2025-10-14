@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int a, b, c, sum;
+	float avg;
+	cout<<"enter 1st number:";
+	cin>>a;
+	cout<<"enter 2nd number:";
+	cin>>b;
+	cout<<"enter 3rd number:";
+	cin>>c;
+	sum = a+b+c;
+	cout<<"sum="<<sum<<endl;
+	avg = sum/3;
+	cout<<"avg="<<avg<<endl;
+}
+	
