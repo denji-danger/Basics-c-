@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	float f,c,r,a;
+	cout<<"enter diameter:";
+	cin>>f;
+    r= f/2; //radius is half of diameter
+	c= 2*3.14*r;
+	a= 3.14*r*r;
+	cout<<"circumference of circle is="<<c<<endl;
+	cout<<"area of circle is="<<a<<endl;
+	return 0;
+}
