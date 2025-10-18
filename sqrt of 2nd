@@ -1,18 +1,14 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
 int main() {
-  float num1, num2;
-  cout << "Enter 1st number: ";
-  cin >> num1;
-  cout << "Enter 2nd number: ";
-  cin >> num2;
-
-  if (num1*num1 == num2) {
-    cout << "The 2nd number is the square of the 1st number." << endl;
-  } else {
-    cout << "The 2nd number is not the square of the 1st number." << endl;
-  }
-
-  return 0;
+	float a,i;
+    cout<<"enter 1st number:";
+	cin>>a;
+	cout<<"enter 2nd number:";
+	cin>>i;
+	
+	if(a*a==i)
+	cout<<"2nd number is the square root of 1st"<<endl;
+	else
+	cout<<"2nd number is not the square root of 1st"<<endl;
 }
