@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main() {
+	float a,b,c,r;
+	cout<<"enter diameter:";
+	cin>>a;
+	r= a/2;
+	b= 3.14*r*r;
+	c= 2*3.14*r;
+	
+	if (r<=10)
+	cout<<"area of circle="<<b<<endl;
+	else
+	cout<<"circumference of circle="<<c<<endl;
+} 
