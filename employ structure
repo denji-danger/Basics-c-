@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+struct employee{
+	string name;
+	int employee_id;
+	float salary;
+	string post;
+};
+   int main(){
+   	employee a;
+   	a.name = "waseem";
+   	a.employee_id = 457;
+   	a.post = "clerk";
+   	a.salary = 40000;
+   	cout<<"      Employee Data"<<endl;
+    cout<<" Name         :  "<<a.name<<endl;
+	cout<<" employee_id  :  "<<a.employee_id<<endl;
+	cout<<" salary       :  "<<a.salary<<endl;
+	cout<<" post         :  "<<a.post;
+}
