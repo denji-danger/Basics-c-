@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int a,b,div,rem;
+	cout<<"enter 1st number:";
+	cin>>a;
+	cout<<"enter 2nd number:";
+	cin>>b;
+	
+	if(b==0)
+	cout<<"error, division by zero is not allowed";
+	else
+	div=a/b;
+	rem=a%b;
+	
+	cout<<"division of a/b="<<div<<endl;
+	cout<<"remainder of a%b="<<rem<<endl;
+}
