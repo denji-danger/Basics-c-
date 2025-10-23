@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+struct car{
+	string name;
+	string engine_code;
+	string model;
+	string price;
+};
+ int main(){
+ 	car a;
+ 	a.name          =   "Bugati Divo";
+ 	a.engine_code   =   "DALA W16";
+ 	a.model         =   "2021";
+ 	a.price         =   "$5.8 Million";
+ cout<<"      Car Specification"<<endl;
+    cout<<" Name         :  "<<a.name<<endl;
+	cout<<" engine_code  :  "<<a.engine_code<<endl;
+	cout<<" model        :   "<<a.model<<endl;
+	cout<<" price        :  "<<a.price;
+}
