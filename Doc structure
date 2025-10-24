@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+struct doc{
+	string name;
+	string specialist;
+	string location;
+	int salary;
+};
+ int main(){
+ 	doc a;
+ 	a.name       =  "Dr.Rao Muhammad Tariq";
+ 	a.specialist =  "Eye specialist";
+ 	a.location   =  "Eid-gah gali, Multan Rd";
+ 	a.salary     =  500000;
+cout<<"      Doc details"<<endl;
+  	cout<<" Name        :  "<<a.name<<endl;
+  	cout<<" specialist  :  "<<a.specialist<<endl;
+  	cout<<" location    :  "<<a.location<<endl;
+  	cout<<" salary      :  "<<a.salary<<endl;
+  }
+ 
