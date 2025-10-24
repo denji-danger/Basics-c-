@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+struct teacher{
+	string name;
+	string specialist;
+	string experience;
+	int salary;
+	string education; 
+};
+ int main(){
+ 	teacher a;
+ 	a.name="Ahmad Karim Sab";
+ 	a.specialist="Information Technology";
+ 	a.experience="12 years";
+ 	a.salary=200000;
+ 	a.education="Doctor of Philosophy (PhD)";
+cout<<"     teacher details"<<endl;
+
+  cout<<" Name               :  "<<a.name<<endl;
+  cout<<" education          :  "<<a.education<<endl;
+  cout<<" specialist         :  "<<a.specialist<<endl;
+  cout<<" experience         :  "<<a.experience<<endl;
+  cout<<" salary             :  "<<a.salary<<endl;
+}
