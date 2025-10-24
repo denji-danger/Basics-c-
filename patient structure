@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+struct patient{
+	string name;
+	string disease;
+	int patient_number;
+	int doc_fee;
+	int treatment_since;
+};
+ int main() {
+ 	patient a;
+ 	a.name="waqar";
+ 	a.disease="hepatitas B";
+ 	a.patient_number=35;
+ 	a.doc_fee=10000;
+ 	a.treatment_since=2024;
+cout<<"     patient details"<<endl;
+cout<<" Name            :  "<<a.name<<endl;
+cout<<" disease         :  "<<a.disease<<endl;
+cout<<" patient number  :  "<<a.patient_number<<endl;
+cout<<" treatment since :  "<<a.treatment_since<<endl;
+cout<<" doc fee         :  "<<a.doc_fee<<endl;
+}
