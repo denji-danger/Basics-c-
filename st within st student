@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+struct marks{
+	int phy;
+	int chem;
+	int math;
+};
+struct student{
+	int rollno;
+	string name;
+	marks m1;
+}; 
+int main(){
+	student s1;
+	cout<<" give rollno:";
+	cin>>s1.rollno;
+	cout<<" give name:";
+	cin>>s1.name;
+	cout<<"     marks details"<<endl;
+	cout<<" give phy marks:";
+	cin>>s1.m1.phy;
+	cout<<" give chem marks:";
+	cin>>s1.m1.chem;
+	cout<<" give math marks:";
+	cin>>s1.m1.math;
+	cout<<"    student record"<<endl;
+	cout<<"rollno      : " <<s1.rollno<<endl;
+	cout<<"name        : " <<s1.name<<endl;
+	cout<<"total marks : " <<s1.m1.phy + s1.m1.math + s1.m1.chem;
+} 
