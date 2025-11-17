@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+float sum(float a,float b) {
+	return a + b;
+}
+float sub(float a, float b) {
+	return a - b;
+}
+float mul(float a, float b) {
+	return a * b;
+}
+float div(float a, float b) {
+	return a/b;
+}
+
+void starline(char c, int n) {
+	for (int i=1; i<=n; i++)
+	cout<<c;
+	cout<<endl;
+}
+
+int main(){
+float a,b;
+int n;
+char s;
+cout<<"enter value for a:";
+cin>>a;
+cout<<"enter value for b:";
+cin>>b;
+cout<<"enter character to be printed:";
+cin>>s;
+cout<<"enter how many times character would display:";
+cin>>n;
+
+cout<<"sum is:"<<sum(a,b)<<endl;
+starline(s,n);
+cout<<"sub is:"<<sub(a,b)<<endl;
+starline(s,n);
+cout<<"mul is:"<<mul(a,b)<<endl;
+starline(s,n);
+cout<<"div is:"<<div(a,b)<<endl;
+starline(s,n);
+return 0;
+
+} 
